@@ -63,22 +63,6 @@ CREATE TABLE `messages` (
   `user` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
---
--- Дамп данных таблицы `messages`
---
-
-INSERT INTO `messages` (`id`, `name`, `email`, `message`, `activity`, `checkOK`, `date_send`, `user`) VALUES
-(1, 'Марина', 'surokmar@gmail.com', 'Плохой сервис. Много букв многобукв много букв много букв. Многобукв много букв, букв много. Получилось мало букв.', 'rest', 'on', '2018-01-01', 0),
-(2, 'Елена', 'surokmar@gmail.com', 'dhd', 'work', 'on', '2018-01-02', 0),
-(3, 'Владимир', 'surokmar@gmail.com', 'Ниток нет.', 'rest', 'on', '2018-01-03', 0),
-(4, 'Николай', 'surokmar@gmail.com', 'аыв', 'rest', 'on', '2018-01-04', 0),
-(5, 'Валентина Петровна', 'surokmar@gmail.com', 'Тест', 'rest', 'on', '2018-01-05', 0),
-(6, 'Альберт', 'surokmar@gmail.com', 'Тест2', 'rest', 'on', '2018-01-06', 0),
-(7, 'Иван', 'surokmar@gmail.com', 'Отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв.', 'rest', 'on', '2018-01-07', 0),
-(8, 'Илон Маск', 'surokmar@gmail.com', 'Я запустил свою Теслу в космос, а ты нет.', '', '', '2018-01-29', 0),
-(9, 'Екатерина Викторовна', 'surokmar@gmail.com', 'Securimage requires no configuration after downloading. All you need to do is display the captcha image somewhere in your form, and validate the code submitted from within your form processor. Customising the image is also very easy. This guide explains the process of adding Securimage to an existing form.', '', '', '2018-01-29', 0),
-(10, 'Маргарита', 'surokmar@gmail.com', 'Огонь!', '', '', '2018-02-01', 0),
-(11, 'Элина', 'surokmar@gmail.com', 'Так себе.', '', '', '2018-02-10', 0);
 
 -- --------------------------------------------------------
 
@@ -94,12 +78,6 @@ CREATE TABLE `users` (
   `email` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
---
--- Дамп данных таблицы `users`
---
-
-INSERT INTO `users` (`id`, `login`, `password`, `name`, `email`) VALUES
-(3, 'admin', 'd8578edf8458ce06fbc5bb76a58c5ca4', '', '');
 
 --
 -- Индексы сохранённых таблиц
